@@ -1,0 +1,71 @@
+.card {
+    margin: 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    transition: all 0.6s ease;
+    background-color: rgb(57, 78, 90) !important;
+}
+
+.card:hover {
+    /* box-shadow: rgb(41, 79, 95) 8px -8px, rgb(52, 57, 77)15px -15px; */
+    box-shadow: rgb(41, 79, 95) 8px -8px;
+}
+
+
+.h5 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.pageBtn {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 82px;
+
+}
+
+.pageBtn button {
+    align-self: center;
+    /* background-color: #fff; */
+    background-color: rgb(52, 57, 77);
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    /* color: #41403e; */
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 0.5rem;
+    line-height: 23px;
+    outline: none;
+    padding: .8rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+}
+
+.pageBtn button:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}
+
+.pageBtn button:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
